@@ -1,0 +1,43 @@
+.off-canvas-wrap{background-image:url(../img/bg1.png);width:100%;height:800px;}
+.nobackground{background-image:url(../img/bg1.png)}
+.widthfull{max-width:none ;width:100%}
+@font-face {
+font-family: airbag;
+src: url("../fonts/airbag.otf") format("opentype");
+}.main-section{font-family:'airbag'}
+.headercontainer{height:70px;}
+.parallax-layer{list-style-type:none
+}
+
+.bg-image1{
+	height:626px;
+	width:100%;
+	
+	display:none;
+}
+.tedthehero{background:url(../img/decentguy.png) no-repeat  ; height:100%;float:left;width:35%;
+background-position:10px 148px;}
+.messages{ height:100%;float:left;width:40%;
+background-position:10px  ;}
+.messages a{position:relative;background-color:#ff0000;
+position: relative;
+top: 68%;
+left: 85px;
+font-weight: bold;padding: 18px 52px;
+font-family: "airbag";}
+.firstmessage{background: url('../img/msg1.png') no-repeat scroll 0% 72% transparent;
+display:none;
+width: 100%;height: 462px;}
+.secondmessage{background:url(../img/msg2.png) 0% 72% no-repeat;display:none;height: 462px; position:relative;left:-108px}
+.intro{ 
+background: url('../img/corbanemissions.png')  45% 0%, url("../img/backgrounds.png")  50px 400px,url("../img/corbanica.png")900px 350px,url("../img/corbanica.png")900px 350px,url("../img/corbanica.png")900px 350px;  no-repeat scroll transparent;
+position: relative;
+top: 20px;
+left: 46px;
+height:704px;
+background-repeat:no-repeat}
+.thepanda{background:url(../img/panda.png) no-repeat  ; height:100%;float:right;width:25%;
+background-position:10px 327px ;}
+.godown{background:url(../img/down.png) no-repeat;width:50px;height:50px;position:absolute;top:580px;left:48%;cursor:pointer}.godown:hover{opacity:0.75;}
+.quiz-section{height:600px;display:none;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif}
+#slickQuiz{ width:50%;float:left;background:url(../images/bg-sequence.jpg);height:580px;padding:10px;}#question0 label{display:inline;margin-right:0}
